@@ -70,6 +70,7 @@ namespace Spelprojekt.States
                 .SetSize<ProgressBar>(100, 10)
                 .SetVisible<ProgressBar>(true)
                 .SetProgress(player.maxStamina, player.stamina));
+            //dsdsfsdfsdf
             Game1.guiManager.Add(new ItemSlotCollection("hotbar", ItemSlotCollection.SlotOrder.horizontal, 1,
                 new ItemSlot("hotSlot1", "itemframe").SetSize<ItemSlot>(64, 64).SetVisible<ItemSlot>(true).SetItem(new ItemWeapon(new Spritesheet("arm", 64, 64), "test", new Point(0, 0), 10, Bullet.DamageType.physical, 5).SetOffset(new Vector2(33, 29)).SetOrigin(new Vector2(18, 31))),
                 new ItemSlot("hotSlot2", "itemframe").SetSize<ItemSlot>(64, 64).SetVisible<ItemSlot>(true).SetItem(new ItemWeapon(new Spritesheet("arm", 64, 64), "test", new Point(0, 1), 50, Bullet.DamageType.physical, 100).SetOffset(new Vector2(33, 29)).SetOrigin(new Vector2(18, 31))),
