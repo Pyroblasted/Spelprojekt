@@ -82,10 +82,6 @@ namespace Spelprojekt.States
                 new ItemSlot("hotSlot9", "itemframe").SetSize<ItemSlot>(64, 64).SetVisible<ItemSlot>(true)).SetLocation<ItemSlotCollection>(new Vector2(50, 720 - 70)).SetCanMove(false));
 
             world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(80, 0), 100, 0, 0, "itemframe"));
-            world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(160, 0), 100, 0, 0, "itemframe"));
-            world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(-40, 0), 100, 0, 0, "itemframe"));
-            world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(-120, 0), 100, 0, 0, "itemframe"));
-            world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(-180, 0), 100, 0, 0, "itemframe"));
         }
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {

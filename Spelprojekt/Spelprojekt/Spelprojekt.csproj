@@ -114,7 +114,6 @@
     <Compile Include="Entities\Objects\Bullet.cs" />
     <Compile Include="Entities\Creatures\Creature.cs" />
     <Compile Include="Entities\Creatures\Player.cs" />
-    <Compile Include="Enemies\Enemy.cs" />
     <Compile Include="GameProperties\GlobalProperties.cs" />
     <Compile Include="Graphics\Animation.cs" />
     <Compile Include="Graphics\AnimationSingleLine.cs" />
