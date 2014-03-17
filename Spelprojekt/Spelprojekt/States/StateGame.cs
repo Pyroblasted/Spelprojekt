@@ -80,7 +80,7 @@ namespace Spelprojekt.States
                 new ItemSlot("hotSlot7", "itemframe").SetSize<ItemSlot>(64, 64).SetVisible<ItemSlot>(true),
                 new ItemSlot("hotSlot8", "itemframe").SetSize<ItemSlot>(64, 64).SetVisible<ItemSlot>(true).SetItem(new ItemWeapon(new Spritesheet("arm", 64, 64), "test", new Point(0, 3), 30, Bullet.DamageType.physical, 65).SetOffset(new Vector2(33, 29)).SetOrigin(new Vector2(18, 31))),
                 new ItemSlot("hotSlot9", "itemframe").SetSize<ItemSlot>(64, 64).SetVisible<ItemSlot>(true)).SetLocation<ItemSlotCollection>(new Vector2(50, 720 - 70)).SetCanMove(false));
-
+            //Ken är bäst
             world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(80, 0), 100, 0, 0, "itemframe"));
             world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(160, 0), 100, 0, 0, "itemframe"));
             world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(-40, 0), 100, 0, 0, "itemframe"));
