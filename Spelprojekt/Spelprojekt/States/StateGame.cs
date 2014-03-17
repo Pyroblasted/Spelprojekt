@@ -83,9 +83,6 @@ namespace Spelprojekt.States
 
             world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(80, 0), 100, 0, 0, "itemframe"));
             world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(160, 0), 100, 0, 0, "itemframe"));
-            world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(-40, 0), 100, 0, 0, "itemframe"));
-            world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(-120, 0), 100, 0, 0, "itemframe"));
-            world.entities.Add(new Zombie(true, true, new Vector2(64), player.location + new Vector2(-180, 0), 100, 0, 0, "itemframe"));
         }
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
