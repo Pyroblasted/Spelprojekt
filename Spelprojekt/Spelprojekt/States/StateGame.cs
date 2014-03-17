@@ -59,7 +59,7 @@ namespace Spelprojekt.States
             player = new Player(new Vector2(GlobalProperties.SCREEN_WIDTH / 2 + 20200, GlobalProperties.SCREEN_HEIGHT / 2 + 20400), new Vector2(45, 64), "player");
             world.entities.Add(player);
             camera.Initialize(player);
-
+            //Camera
             Game1.guiManager.Add(new ProgressBar("lifeBar", "testBar", "")
                 .SetLocation<ProgressBar>(new Vector2(10, 10))
                 .SetSize<ProgressBar>(100, 10)
